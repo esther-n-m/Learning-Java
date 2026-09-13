@@ -23,5 +23,22 @@ public class Main {
 
         boolean myBool = true;
         System.out.println(myBool);
+
+        //Variable + variable
+        int x = 5;
+        int y = 6;
+        int sum = x + y;
+        System.out.println(sum);
+
+        //Text + Numbers
+        String text = "My age is ";
+        int age = 12;
+        System.out.println(text + age);
+
+        //Importance of parantheses
+        int b = 5;
+        int c = 6;
+        System.out.println("The sum is: " + b + c);
+        System.out.println("The sum is: " + (b + c));
     }
 }
