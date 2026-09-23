@@ -40,5 +40,27 @@ public class Main {
         int c = 6;
         System.out.println("The sum is: " + b + c);
         System.out.println("The sum is: " + (b + c));
+
+        //Declare variables of same type
+        int x1 = 5, y1 = 6, z1 = 50;
+        System.out.println(x1 + y1 + z1);
+
+        //same value multiple variables
+        int x2, y2, z2;
+        x2 = y2 = z2 = 50;
+        System.out.println(x2 + y2 + z2);
+
+        //Final variables
+        final int myFinalNum = 15;
+        System.out.println(myFinalNum);
+        //final variables are usually written in uppercase letters
+        final int BIRTHYEAR = 2004;
+        System.out.println(BIRTHYEAR);
+
+        //float and double suffix
+        float myFloatNum1 = 5.99f;
+        double myDoubleNum = 9.98d;
+        System.out.println(myFloatNum1);
+        System.out.println(myDoubleNum);
     }
 }
