@@ -62,5 +62,22 @@ public class Main {
         double myDoubleNum = 9.98d;
         System.out.println(myFloatNum1);
         System.out.println(myDoubleNum);
+
+        //VAR Keyword
+        var greeting = "Hello";
+        System.out.println(greeting);
+        var myNum1 = 5;
+        System.out.println(myNum1);
+
+        //type casting
+        //widening casting (automatically) - converting a smaller type to a larger type size
+        int myInt = 9;
+        double myDouble = myInt;   
+        System.out.println(myDouble); 
+        
+        //narrowing casting (manually) - converting a larger type to a smaller size type
+        double myDouble1 = 9.78d;
+        int myInt1 = (int) myDouble1;
+        System.out.println(myInt1);
     }
 }
